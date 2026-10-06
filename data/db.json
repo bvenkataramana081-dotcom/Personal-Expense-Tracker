@@ -1,0 +1,140 @@
+{
+  "users": [
+    {
+      "id": "0e81f957-75e2-4bed-ae53-f1f96adbbc9b",
+      "username": "FilterUser",
+      "email": "filter@example.com",
+      "password_hash": "dummy_hash",
+      "created_at": "2026-10-06T07:34:43.616Z"
+    },
+    {
+      "id": "83ec1c1d-591b-4a60-a581-e7adbad40b85",
+      "username": "Rahul",
+      "email": "rahul@example.com",
+      "password_hash": "dummy_hash",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    },
+    {
+      "id": "60e48681-6ecd-45e6-a1e9-0c8bcb3f3613",
+      "username": "Priya",
+      "email": "priya@example.com",
+      "password_hash": "dummy_hash",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    },
+    {
+      "id": "30a9d005-a614-4224-bafd-d569c6c8f861",
+      "username": "AuthUser",
+      "email": "auth@example.com",
+      "password_hash": "dummy_hash",
+      "created_at": "2026-10-06T07:34:43.619Z"
+    },
+    {
+      "id": "476d0a26-6e9e-4c50-84cc-9eeed6c04c40",
+      "username": "ValUser",
+      "email": "val@example.com",
+      "password_hash": "dummy_hash",
+      "created_at": "2026-10-06T07:34:43.620Z"
+    }
+  ],
+  "categories": [
+    {
+      "id": "cca7e126-c141-4c00-9306-e02a33cc1394",
+      "user_id": "0e81f957-75e2-4bed-ae53-f1f96adbbc9b",
+      "name": "FilterFood",
+      "description": "",
+      "created_at": "2026-10-06T07:34:43.617Z"
+    },
+    {
+      "id": "c46eac6d-a957-481f-8c42-b2546df75b6f",
+      "user_id": "83ec1c1d-591b-4a60-a581-e7adbad40b85",
+      "name": "RahulFood",
+      "description": "",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    },
+    {
+      "id": "16f7053e-8918-4b5f-a47a-c6fb5ea248a1",
+      "user_id": "60e48681-6ecd-45e6-a1e9-0c8bcb3f3613",
+      "name": "PriyaFood",
+      "description": "",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    },
+    {
+      "id": "318206ea-da1b-4c8a-95af-44bc26850d48",
+      "user_id": "476d0a26-6e9e-4c50-84cc-9eeed6c04c40",
+      "name": "ValCategory",
+      "description": "",
+      "created_at": "2026-10-06T07:34:43.620Z"
+    }
+  ],
+  "budgets": [
+    {
+      "id": "921fadc2-7ee2-4e76-9312-ebe8ccb179b4",
+      "user_id": "0e81f957-75e2-4bed-ae53-f1f96adbbc9b",
+      "category_id": "cca7e126-c141-4c00-9306-e02a33cc1394",
+      "monthly_limit": 5000,
+      "month_year": "2026-10",
+      "created_at": "2026-10-06T07:34:43.617Z"
+    },
+    {
+      "id": "d3b103dc-0b22-4f31-b039-5a69de3f3581",
+      "user_id": "83ec1c1d-591b-4a60-a581-e7adbad40b85",
+      "category_id": "c46eac6d-a957-481f-8c42-b2546df75b6f",
+      "monthly_limit": 5000,
+      "month_year": "2026-10",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    },
+    {
+      "id": "574fd151-9937-4e47-b46a-95817ecda238",
+      "user_id": "60e48681-6ecd-45e6-a1e9-0c8bcb3f3613",
+      "category_id": "16f7053e-8918-4b5f-a47a-c6fb5ea248a1",
+      "monthly_limit": 6000,
+      "month_year": "2026-10",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    }
+  ],
+  "expenses": [
+    {
+      "id": "73247a65-4a70-49e7-af50-1f1023128623",
+      "user_id": "0e81f957-75e2-4bed-ae53-f1f96adbbc9b",
+      "category_id": "cca7e126-c141-4c00-9306-e02a33cc1394",
+      "amount": 2000,
+      "date": "2026-10-15",
+      "notes": "",
+      "created_at": "2026-10-06T07:34:43.617Z"
+    },
+    {
+      "id": "c8c86e49-3fdb-4d73-a0f0-ecd150ea1f32",
+      "user_id": "0e81f957-75e2-4bed-ae53-f1f96adbbc9b",
+      "category_id": "cca7e126-c141-4c00-9306-e02a33cc1394",
+      "amount": 4000,
+      "date": "2026-09-20",
+      "notes": "",
+      "created_at": "2026-10-06T07:34:43.617Z"
+    },
+    {
+      "id": "0f66e4d2-190e-48d1-81ab-feca0235a399",
+      "user_id": "83ec1c1d-591b-4a60-a581-e7adbad40b85",
+      "category_id": "c46eac6d-a957-481f-8c42-b2546df75b6f",
+      "amount": 500,
+      "date": "2026-10-06",
+      "notes": "",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    },
+    {
+      "id": "4ab4b991-d9a5-498a-a0d0-45f4698fef56",
+      "user_id": "60e48681-6ecd-45e6-a1e9-0c8bcb3f3613",
+      "category_id": "16f7053e-8918-4b5f-a47a-c6fb5ea248a1",
+      "amount": 800,
+      "date": "2026-10-06",
+      "notes": "",
+      "created_at": "2026-10-06T07:34:43.618Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "c8b57dddce113f4d96e60975a8adf0ccfb00852ca00205393795c5c28030f427",
+      "user_id": "30a9d005-a614-4224-bafd-d569c6c8f861",
+      "expires_at": 1791876883619
+    }
+  ]
+}

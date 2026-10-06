@@ -1,0 +1,6 @@
+{
+  "name": "Personal Expense Tracker & Budget Manager",
+  "description": "A secure personal finance tracker with monthly category budgets, automated spending calculations, alert thresholds, and isolated user data.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
